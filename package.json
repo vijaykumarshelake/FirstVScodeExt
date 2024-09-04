@@ -1,0 +1,21 @@
+{
+  "name": "wfextension",
+  "displayName": "WFExtension",
+  "description": "To get WF fullform",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "icon": "logo.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
